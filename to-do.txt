@@ -1,0 +1,3 @@
+1. Organize a way for the scripts to be imported via JavaScript
+2. Create the files for the generation of "times" within the locations section
+3. Create a custom made import field that can be used for #2 but also for things like the key removal time and even in other programs for HWMV. Make it universal
