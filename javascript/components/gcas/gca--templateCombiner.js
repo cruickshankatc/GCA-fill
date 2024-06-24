@@ -12,4 +12,5 @@ function gcaDivCreation(machineNum, cameraNum) {
     let gcaItem = document.createElement("div");
 
     gcaDivInfo(locationSection, gcaItem, machineNum, cameraNum);
+    gcaDivInputs(locationSection, gcaItem);
 }
