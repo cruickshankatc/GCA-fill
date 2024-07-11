@@ -28,8 +28,21 @@
     margin-top: 0px;
 }
 
-
 .gcaTimes {
     display: flex;
     gap: 5px;
+}
+
+.upButton {
+    background-color: green;
+    color: white;
+}
+
+.downButton {
+    background-color: red;
+    color: white;
+}
+
+.trashButton {
+    background-color: gray;
 }

@@ -16,9 +16,9 @@ function gcaDivInputs(gcaSubSection1) {
     securedDiv.classList.add("gcaTimes");
 
     //Create the elements
-    let openedDivInput = document.createElement("input");
+    let openedDivInput = timeInputs();
     let openedDivLabel = document.createElement("p");
-    let securedDivInput = document.createElement("input");
+    let securedDivInput = timeInputs();
     let securedDivLabel = document.createElement("p");
 
     //Assign innerHTML to the elements

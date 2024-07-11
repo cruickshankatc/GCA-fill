@@ -1,3 +1,8 @@
-2. Add classes to buttons and color them
+1. Use JavaScript for current time function
+2. In the "time-input popup" clicking on minutes (or seconds if avaliable) should make the fill the time. You shouldn't need to press a key. Get JavaScript to do this.
 3. Create a custom made input field that can be used for #2 but also for things like the key removal time and even in other programs for HWMV. Make it universal
 4. Figure out how the custom made input fields work (through a mix of classes and javascript programming)
+5. When doing GCA inputs, the default hour "value" of the time should update, for all the below times, if an hour is changed. For example inputting "15:29" would make all of the following times get "15" for the hour (unless changed)
+6. Add a button to just input the current time (like a checkmark)
+7. Button to add seconds to time
+8. Military time in time select

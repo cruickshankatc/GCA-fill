@@ -5,6 +5,9 @@ const scripts = [
     //General
     "javascript/components/gcas/gca--textFill.js",
     "javascript/components/gcas/gca--templateCombiner.js",
+    
+    //Reusable Tools
+    "javascript/components/reusable-tools/timeInputs.js",
 
     //GCA Information
     "javascript/components/gcas/gca--objects.js",
