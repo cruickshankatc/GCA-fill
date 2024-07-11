@@ -1,4 +1,4 @@
-function gcaDivInputs(locationSection, gcaItem) {
+function gcaDivInputs(gcaSubSection1) {
     /**
      * TIMES SECTION
      * Elements which allow the inputting of times
@@ -31,17 +31,9 @@ function gcaDivInputs(locationSection, gcaItem) {
     securedDiv.appendChild(securedDivInput);
     securedDiv.appendChild(securedDivLabel);
 
-
-
-
     //Append children to timesDiv
     timesDiv.appendChild(openedDiv);
     timesDiv.appendChild(securedDiv);
 
-
-
-
-
-
-    gcaItem.appendChild(timesDiv);
+    gcaSubSection1.appendChild(timesDiv);
 }

@@ -13,6 +13,9 @@ const scripts = [
     //GCA Times
     "javascript/components/gcas/gca--template--times.js",
 
+    //GCA Buttons
+    "javascript/components/gcas/gca--template--buttons.js",
+
     //Main file which works as the bridge between other js files and HTML
     "javascript/main.js",
 ];

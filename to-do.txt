@@ -1,5 +1,4 @@
-0. Create the separate sections for the inputs and the btns
-1. Create the section for "remove btn" and "up and down arrows"
-2. Attach locations and times sections to a sub section for the gca div (there will be second section with the remove button and up and down arrows)
+1. Create div class names for different things
+2. Give the gcaItem a display of flex
 3. Create a custom made import field that can be used for #2 but also for things like the key removal time and even in other programs for HWMV. Make it universal
 4. Figure out how the custom made input fields work (through a mix of classes and javascript programming)

@@ -1,4 +1,4 @@
-function gcaDivInfo(locationSection, gcaItem, machineNum, cameraNum) {
+function gcaDivInfo(gcaSubSection1, machineNum, cameraNum) {
     /**
      * INFO SECTION
      * Elements which give general information about the GCA
@@ -21,9 +21,6 @@ function gcaDivInfo(locationSection, gcaItem, machineNum, cameraNum) {
     infoDiv.appendChild(machine);
     infoDiv.appendChild(camera);
 
-    //Append the infoDiv to gcaItem
-    gcaItem.appendChild(infoDiv);
-
-    //Append the gcaItem to the <section> or to the locationSection
-    locationSection.appendChild(gcaItem);
+    //Append the infoDiv to gcaSubSection1
+    gcaSubSection1.appendChild(infoDiv);
 }
