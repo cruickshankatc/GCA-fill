@@ -15,4 +15,8 @@ let gcaObjects = [
         machine: 4,
         camera: 5000,
     },
+    {
+        machine: 5,
+        camera: 7050,
+    },
 ]

@@ -15,6 +15,11 @@ function gcaDivCreation(machineNum, cameraNum) {
     //Div to which all the children (info, times, etc) will be attached
     let gcaItem = document.createElement("div");
 
+    //Give classes to the gcaItem and its subsections
+    gcaItem.classList.add("gcaItem");
+    gcaSubSection1.classList.add("gcaItem--sub1");
+    gcaSubSection2.classList.add("gcaItem--sub2");
+
     //Execute the functions to create the different areas and sections
     gcaDivInfo(gcaSubSection1, machineNum, cameraNum);
     gcaDivInputs(gcaSubSection1);

@@ -1,7 +1,33 @@
+.gcaItem {
+    display: flex;
+    margin-bottom: 20px
+}
+
+.gcaItem p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.gcaItem input {
+    height: 20px;
+}
+
+.gcaItem--sub1 {
+    margin-right: 20px;
+}
+
+.gcaItem--sub2 {
+    display: flex;
+    align-items: center;
+}
+
 .info {
     display: flex;
     gap: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
+
 
 .gcaTimes {
     display: flex;
