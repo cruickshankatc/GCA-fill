@@ -8,6 +8,7 @@ const scripts = [
     
     //Reusable Tools
     "javascript/components/reusable-tools/timeInputs.js",
+    "javascript/components/reusable-tools/createReport.js",
 
     //GCA Information
     "javascript/components/gcas/gca--objects.js",
